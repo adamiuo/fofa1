@@ -2713,7 +2713,7 @@ data = {
 },
 {
 {text = Get_Chat.title, url = Info_Chats.invite_link.invite_link}, 
-},
+}
 }
 }
 LuaTele.sendText(Sudo_Id,0,'*\n࿗︙ تم تفعيل مجموعه جديده \n࿗︙ من قام بتفعيلها{ *['..UserInfo.first_name..'](tg://user?id='..msg.sender.user_id..')* }\n࿗︙ معلومات المجموعه ← \n࿗︙ عدد الاعضاء ← '..Info_Chats.member_count..'\n࿗︙ عدد الادمنيه ← '..Info_Chats.administrator_count..'\n࿗︙ عدد المطرودين ← '..Info_Chats.banned_count..'\n࿗ عدد المقيدين ← '..Info_Chats.restricted_count..'*',"md",true, false, false, false, reply_markup)
