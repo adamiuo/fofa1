@@ -11404,7 +11404,7 @@ local reply_markup = LuaTele.replyMarkup{
 type =  inline ,
 data = {
 {
-{text =  تحميل صوت , data = msg.sender.user_id.. /mp3 ..msg_id}, {text =  تحميل فيديو , data = msg.sender.user_id.. /mp4 ..msg_id}, 
+{text =  تحميل صوت , data = msg.sender.user_id.. /mp3 ..msg_id}, {text =  تحميل فيديو , data = msg.sender.user_id.. /mp4 ..msg_id}
 },
 }
 }
